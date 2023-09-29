@@ -234,9 +234,6 @@ func CreateCharacter() {
 		return
 	}
 
-	// Assurez-vous que vous stockez le personnage dans la variable p1, p2, p3 ou p4 selon la disponibilité.
-	// Par exemple, si le premier emplacement (p1) est disponible, utilisez p1.
-	// Assurez-vous de gérer cette logique pour tous les emplacements de personnage disponibles.
 	if p1.name == "" {
 		p1 = newCharacter
 	} else if p2.name == "" {
